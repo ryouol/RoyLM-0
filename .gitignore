@@ -1,0 +1,17 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated data
+data/input.txt
+data/train.bin
+data/val.bin
+data/meta.pkl
+
+# Model outputs
+*.pt
+viz_*.png
