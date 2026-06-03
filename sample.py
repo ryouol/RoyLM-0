@@ -33,6 +33,7 @@ def encode(text):
 def decode(ids):
     return "".join(itos[i] for i in ids)
 
+
 model = GPT(config)
 model.load_state_dict(ckpt["model"])
 model.eval()
