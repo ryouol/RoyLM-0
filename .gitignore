@@ -15,3 +15,6 @@ data/meta.pkl
 # Model outputs
 *.pt
 viz_*.png
+!viz_attention.png
+!viz_embeddings.png
+!viz_nextchar.png
